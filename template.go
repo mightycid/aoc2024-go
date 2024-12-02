@@ -22,7 +22,7 @@ func main() {
 		lines = append(lines, line)
 	}
 	if err := scanner.Err(); err != nil {
-		fmt.Println(err)
+		panic(err)
 	}
 
 }
